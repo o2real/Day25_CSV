@@ -41,12 +41,12 @@ data = pandas.read_csv("weather_data.csv")
 
 
 # monday = data[data.day == "Monday"]
-#
-# print(monday.condition)
-# monday = int(monday.temp)
-# monday_f = monday * 9/5 + 32
-#
-# print(monday_f)
+
+print(monday.condition)
+monday = int(monday.temp)
+monday_f = monday * 9/5 + 32
+
+print(monday_f)
 
 
 #Create a dataframe from scratch
