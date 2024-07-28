@@ -14,7 +14,7 @@
 
 
 #need pandas!
-
+#
 # import pandas
 #
 # data = pandas.read_csv("weather_data.csv")
@@ -44,13 +44,13 @@
 #
 # print(monday.condition)
 # monday = int(monday.temp)
-# # monday_f = monday * 9/5 + 32
-# #
-# # print(monday_f)
+# monday_f = monday * 9/5 + 32
 #
-#
-# #Create a dataframe from scratch
-#
+# print(monday_f)
+
+
+#Create a dataframe from scratch
+
 # data_dict = {
 #     "students": ["Amy", "James", "Angela"],
 #     "score": [76, 56, 65]
